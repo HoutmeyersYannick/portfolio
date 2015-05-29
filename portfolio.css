@@ -1,0 +1,112 @@
+body {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #2BB673;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Poiret One', cursive;
+	margin-top: 2%;
+	color: white;
+	text-decoration: underline;
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	margin-top: 0.3em;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.2em;
+	margin-top: 10.2em;
+	text-align: center;
+	color: crimson;
+	box-shadow: 2em;
+	;
+
+}
+
+.kader {
+	width: 30%;
+	height: 28em;
+	background-color: black;
+	float: left;
+	margin-right: 5%;
+	margin-top: 5%;
+	border-radius: 10px;
+}
+
+.krechts {
+	margin-right: 0;
+	background: url(marketing.jpg) no-repeat center;
+	background-size: 160%;
+	border-radius: 10px;
+}
+
+.kmid {
+	background: url(aboutme.jpg) no-repeat center;
+	background-size: 100%;
+	border-radius: 10px;
+}
+
+.klinks {
+	background: url(grafischdesign.jpg) no-repeat center;
+	background-size: 280%;
+	border-radius: 10px;
+}
+
+
+.kader:hover {
+ box-shadow: 0 0 15px black;
+}
+
+.contact {
+	border-top: solid white 1.5em;
+	clear: both;
+}
+
+.vogel {
+	height: 20%;
+	width: 20%;
+	position: relative;
+	top: 0em;
+	right: -24em;
+}
+
+.facebook {
+	height: 20%;
+	width: 20%;
+	position: relative;
+	top: 0em;
+	right: -24em;
+}
+
+.instagram {
+	height: 20%;
+	width: 20%;
+	position: relative;
+	top: 0em;
+	right: -24em;
+}
+
+@media (max-width: 900px) {  
+    .kader {width: 40%;} 
+    .krechts {width: 40%;}
+    .kmid {width: 40%;}
+    .klinks {width: 40%;}
+}
+
+@media (max-width: 700px) {
+	.kader {width: 30%;} 
+    .krechts {width: 30%;}
+    .kmid {width: 30%;}
+    .klinks {width: 30%;}
+}
+
+
